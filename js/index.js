@@ -11,11 +11,12 @@ document.addEventListener('keyup', function(event){
     changeBG.style.backgroundColor = "#" + randomColor;
     // event.stopPropagation()
 })
-document.addEventListener('keyup', function(event){
+// document.addEventListener('keyup', function(event){
     
-    changeBG.style.backgroundColor = "green"
+//     changeBG.style.backgroundColor = "green"
+//     event.stopPropagation()
     
-})
+// })
 const changeH1 = document.querySelector('header h1');
 
 changeH1.addEventListener('mouseover', function(event){
